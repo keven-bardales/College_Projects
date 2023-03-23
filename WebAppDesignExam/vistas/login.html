@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/examen.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    
+
+    <section class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-6 col-lg-6 p-5 loginDiv align-middle">
+                <form>
+                    <div class="alert alert-danger collapse" id="red" role="alert">
+                        Usuario y Contraseña no validos
+                      </div>
+                      <div class="alert alert-warning collapse" id="yellow" role="alert">
+                        Llene todos los campos
+                      </div>
+                      <div>
+                        <p class="h1">Iniciar Sesion</p>
+                      </div>
+                    <div class="mb-3">
+                      <label for="Usuario" class="form-label">Nombre Usuario</label>
+                      <input type="text" class="form-control" id="usuario" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="password" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="mb-3 form-check">
+                    </div>
+                    <div class="d-grid gap-2 mb-5">
+                    <button type="button" id="login" class="btn btn-primary">Iniciar Sesion</button>
+                </div>
+                  </form>
+            </div>
+        </div>
+    </section>
+  
+
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/login.js"></script>
+</body>
+</html>

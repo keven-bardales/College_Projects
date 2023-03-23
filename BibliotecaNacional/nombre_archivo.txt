@@ -1,0 +1,32 @@
+Titulo del libro: Las aventuras de pepe
+ISBN: 1
+Autor/Autores: Keven Bardales
+Categoria tematica del Libroaventura
+Año de publicacion: 2004
+Editorial: jaja
+Numero de edicion: 9na
+
+Titulo del libro: la noche oscura
+ISBN: 2
+Autor/Autores: fernando flores
+Categoria tematica del Librosuspenso
+Año de publicacion: 2006
+Editorial: fantasies
+Numero de edicion: 9na
+
+Titulo del libro: Aprendiendo a programar 
+ISBN: 3
+Autor/Autores: keven
+Categoria tematica del Libroeducativo
+Año de publicacion: 2008
+Editorial: educatin
+Numero de edicion: 10ma
+
+Titulo del libro: javascript
+ISBN: 4
+Autor/Autores: Eduardo Antonio
+Categoria tematica del Libroeducativo
+Año de publicacion: 2005
+Editorial: educatin
+Numero de edicion: 9na
+

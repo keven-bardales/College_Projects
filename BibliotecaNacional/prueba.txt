@@ -1,0 +1,13 @@
+
+Titulo del libro: akjfsas
+ISBN: 646
+Autor/Autores: 
+Autor 1: asfaf
+Autor 2: afsafsasfasf
+Categoria tematica del Libro: afsafsasfaf
+Año de publicacion: fjfjggf
+Editorial: fjfjg
+Numero de edicion: fjf
+Estante numero: 5
+Posiciion en el estante: 2
+

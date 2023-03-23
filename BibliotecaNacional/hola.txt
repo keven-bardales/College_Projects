@@ -1,0 +1,11 @@
+
+Titulo del libro: afaf
+ISBN: 84654
+Autor/Autores: afaf
+Categoria tematica del Libroafsasf
+Año de publicacion: 2005
+Editorial: asfasf
+Numero de edicion: 9na
+Estante numero: 1
+Posiciion en el estante: 2
+
