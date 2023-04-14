@@ -1,0 +1,102 @@
+@media (max-width: 924px) {
+  #menu {
+    width: 100%;
+    padding: 1rem 2rem;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  #logo {
+    height: 5rem;
+    padding: 0 1rem;
+    font-size: 2.5rem;
+    justify-content: space-between;
+  }
+
+  #logo img {
+    height: 90px;
+    width: 90px;
+  }
+
+  #logo:hover {
+    background-color: transparent;
+    border-radius: none;
+    transform: none;
+  }
+
+  #logo span {
+    padding: 0;
+  }
+
+  #menu #nav_links {
+    font-size: 1.3rem;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+  }
+
+  #menu #nav_links li {
+    padding: 0.5rem;
+    margin: 0px;
+  }
+
+  /*HOME*/
+  #home {
+    padding-top: 178.4px;
+  }
+}
+
+@media (max-width: 722px) {
+  #menu #nav_links {
+    display: none;
+  }
+
+  #menu #nav_links.active {
+    display: flex;
+  }
+
+  #menu #nav_links li {
+    padding: 0.5rem;
+    margin: 0px;
+    flex-basis: 100%;
+  }
+
+  #menu #nav_links li:active {
+    background-color: var(--font-color-primary);
+  }
+
+  #logo {
+    font-size: 1.4rem;
+  }
+
+  /*HOME*/
+  #home {
+    padding-top: 134.4px;
+  }
+
+  #toggler {
+    cursor: pointer;
+    color: white;
+    justify-self: end;
+    display: block;
+    padding: 0.5rem;
+    transition: all 300ms;
+  }
+
+  #toggler:hover {
+    background-color: var(--font-color-primary);
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 450px) {
+  #logo {
+    font-size: 1rem;
+  }
+}
+/*CONTENT*/
+#container {
+  width: 90%;
+  margin: 0px auto;
+  min-height: 1100px;
+  border: 1px solid black;
+}

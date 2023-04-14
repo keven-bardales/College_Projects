@@ -1,0 +1,26 @@
+/* fonts.css */
+:root {
+  /* Font Sizes */
+  --font-size-small: 12px;
+  --font-size-medium: 16px;
+  --font-size-large: 24px;
+
+  /* Font Colors */
+  --font-color-primary: #ef7fc6;
+  --font-color-secondary: #c63884;
+  --font-color-white: white;
+  --font-color-accent: #ff0000;
+  --font-color-dark: black;
+
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* Font Families */
+  --font-family-primary: "Arial", sans-serif;
+  --font-family-secondary: "Helvetica", sans-serif;
+  --font-family-accent: "Georgia", serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
