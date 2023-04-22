@@ -3453,24 +3453,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pc\\.nuget\\packages\\": {},
+    "C:\\Users\\keven\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\VisualStudio\\Examen2Progra2\\Examen2Progra2\\Examen2Progra2.Android\\Examen2Progra2.Android.csproj",
+      "projectUniqueName": "C:\\Users\\keven\\OneDrive - Universidad Tecnologica Centroamericana\\Escritorio\\Github\\College_Projects\\College_Projects\\TeacherAppMobile\\Examen2Progra2\\Examen2Progra2.Android\\Examen2Progra2.Android.csproj",
       "projectName": "Examen2Progra2.Android",
-      "projectPath": "C:\\Users\\pc\\Desktop\\VisualStudio\\Examen2Progra2\\Examen2Progra2\\Examen2Progra2.Android\\Examen2Progra2.Android.csproj",
-      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\VisualStudio\\Examen2Progra2\\Examen2Progra2\\Examen2Progra2.Android\\obj\\",
+      "projectPath": "C:\\Users\\keven\\OneDrive - Universidad Tecnologica Centroamericana\\Escritorio\\Github\\College_Projects\\College_Projects\\TeacherAppMobile\\Examen2Progra2\\Examen2Progra2.Android\\Examen2Progra2.Android.csproj",
+      "packagesPath": "C:\\Users\\keven\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\keven\\OneDrive - Universidad Tecnologica Centroamericana\\Escritorio\\Github\\College_Projects\\College_Projects\\TeacherAppMobile\\Examen2Progra2\\Examen2Progra2.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\keven\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3484,8 +3484,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\pc\\Desktop\\VisualStudio\\Examen2Progra2\\Examen2Progra2\\Examen2Progra2\\Examen2Progra2.csproj": {
-              "projectPath": "C:\\Users\\pc\\Desktop\\VisualStudio\\Examen2Progra2\\Examen2Progra2\\Examen2Progra2\\Examen2Progra2.csproj"
+            "C:\\Users\\keven\\OneDrive - Universidad Tecnologica Centroamericana\\Escritorio\\Github\\College_Projects\\College_Projects\\TeacherAppMobile\\Examen2Progra2\\Examen2Progra2\\Examen2Progra2.csproj": {
+              "projectPath": "C:\\Users\\keven\\OneDrive - Universidad Tecnologica Centroamericana\\Escritorio\\Github\\College_Projects\\College_Projects\\TeacherAppMobile\\Examen2Progra2\\Examen2Progra2\\Examen2Progra2.csproj"
             }
           }
         }

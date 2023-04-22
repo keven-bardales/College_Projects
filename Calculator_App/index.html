@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="calculator_container">
+      <h1>
+        DESIGNED AND DEVELOPED BY <br /><a href="">@keven_bardales_dev</a>
+      </h1>
+
+      <div class="calculator">
+        <!--CALCULATOR HEADER STARTS-->
+        <div id="calculator_header">
+          <h2>calc</h2>
+          <div id="input_calculator">
+            <h6>THEME</h6>
+            <div id="inputs">
+              <div class="labels">
+                <label for="theme1">1</label>
+                <label for="theme2">2</label>
+                <label for="theme3">3</label>
+              </div>
+              <div class="radio">
+                <input
+                  type="radio"
+                  name="theme"
+                  id="theme1"
+                  value="0"
+                  checked=""
+                />
+                <input type="radio" name="theme" id="theme2" value="1" />
+                <input type="radio" name="theme" id="theme3" value="2" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--CALCULATOR HEADER ENDS-->
+        <!--USER INPUT NUMBERS START-->
+        <div id="user_input">
+          <div id="previous_number"></div>
+          <div id="current_number">0</div>
+        </div>
+        <!--USER INPUT NUMBERS ENDS-->
+        <!--BUTTONS START HERE-->
+        <div id="buttons_container">
+          <button class="number btn">7</button>
+          <button class="number btn">8</button>
+          <button class="number btn">9</button>
+          <button id="del" class="delete btn">DEL</button>
+          <button class="number btn">4</button>
+          <button class="number btn">5</button>
+          <button class="number btn">6</button>
+          <button class="operand btn">+</button>
+          <button class="number btn">1</button>
+          <button class="number btn">2</button>
+          <button class="number btn">3</button>
+          <button class="operand btn">-</button>
+          <button class="number btn">.</button>
+          <button class="number btn">0</button>
+          <button class="operand btn">/</button>
+          <button class="operand btn">*</button>
+          <button id="reset" class="reset btn">RESET</button>
+          <button id="equal" class="operand btn">=</button>
+        </div>
+      </div>
+
+      <div id="challenge">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io/solutions/calculatorapp-FBFB67V_0"
+          >FrontendMentor Calculator App</a
+        >
+      </div>
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/fa29c8d7e1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/index.js"></script>
+  </body>
+</html>

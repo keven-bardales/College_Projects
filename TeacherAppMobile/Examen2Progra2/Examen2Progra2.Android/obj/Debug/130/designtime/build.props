@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638150984257355372
+_nugetassetstimestamp=638176861804903128
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\pc\desktop\visualstudio\examen2progra2\examen2progra2\examen2progra2.android\examen2progra2.android.csproj
+projectfullpath=c:\users\keven\onedrive - universidad tecnologica centroamericana\escritorio\github\college_projects\college_projects\teacherappmobile\examen2progra2\examen2progra2.android\examen2progra2.android.csproj

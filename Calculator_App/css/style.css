@@ -1,0 +1,241 @@
+:root {
+  --primary-color: #3a4764;
+  --secondary-color: #637097;
+  --tertiary-color: #d03f2f;
+  --bg-color: #232c43;
+  --user_bg: #182034;
+  --btn_bg: #eae3dc;
+  --del_bg: #637097;
+  --fontcolor1: white;
+  --font-family: 'Spartan', sans-serif;
+  --shadow1: 0px -6px 5px 0px rgb(129, 125, 121) inset;
+  --shadow2: 0px -6px 5px 0px rgb(58, 64, 80) inset;
+  --shadow3: 0px -6px 5px 0px rgb(100, 41, 35) inset;
+  --font-size: 32px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: 900;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  transition: all 300ms;
+  text-transform: scale(1.2);
+}
+
+a:hover {
+  color: var(--user_bg);
+}
+
+button {
+  border: none;
+}
+
+section {
+  background-color: var(--primary-color);
+  height: 100vh;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+section h1 {
+  text-align: center;
+  color: var(--fontcolor1);
+  font-size: 30px;
+  font-weight: 900;
+  justify-self: center;
+  width: 100%;
+  padding-top: 2em;
+}
+
+.calculator {
+  display: flex;
+  max-width: min(350px, 90%);
+  margin: 2em auto;
+  flex-wrap: wrap;
+  color: var(--fontcolor1);
+  max-height: 500px;
+}
+
+#calculator_header {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2em;
+}
+
+#input_calculator {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  height: auto;
+  gap: 1em;
+  flex-basis: 75%;
+}
+
+#inputs {
+  flex-basis: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 5px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+#input_calculator h6,
+#input_calculator label {
+  font-size: 0.5em;
+  font-weight: bold;
+}
+input:checked {
+  background-color: var(--tertiary-color);
+}
+
+[id='theme1'],
+[id='theme2'],
+[id='theme3'] {
+  appearance: none;
+  flex-basis: 20%;
+  height: 20px;
+  border-radius: 30px;
+  transition: 0.5s;
+  align-self: center;
+}
+
+.radio {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: var(--bg-color);
+  font-size: large;
+  border-radius: 30px;
+  height: 2em;
+}
+
+div .labels {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+div .labels label {
+  margin-left: 5px;
+}
+
+/*USER INPUT*/
+
+#user_input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 900;
+  width: 100%;
+  height: 80px;
+  background-color: var(--user_bg);
+  border-radius: 12px;
+}
+
+#previous_number {
+  font-size: 0.5em;
+  width: 100%;
+  text-align: right;
+  padding-top: 0.2em;
+  margin: 0 10px;
+}
+
+#current_number {
+  flex-basis: 100%;
+  text-align: right;
+  margin: 0 10px;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+/*BUTTONS*/
+#buttons_container {
+  padding: 0.4em;
+  padding-bottom: 0.8em;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.5em;
+  background: var(--bg-color);
+  justify-content: space-around;
+  flex-basis: 100%;
+  border-radius: 12px;
+}
+
+#buttons_container button {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: var(--btn_bg);
+  flex-basis: 22%;
+  margin-top: 5%;
+  height: min(75px, 50px);
+  min-height: 16px;
+  font-size: 0.7em;
+  font-weight: 900;
+  color: var(--bg-color);
+  box-shadow: var(--shadow1);
+}
+
+#buttons_container button:nth-child(17),
+#buttons_container button:nth-child(18) {
+  flex-basis: 45%;
+}
+
+#buttons_container button:nth-child(17),
+#buttons_container button:nth-child(4) {
+  background-color: var(--del_bg);
+  box-shadow: 0px -6px 5px 0px rgb(58, 64, 80) inset;
+  color: var(--fontcolor1);
+}
+
+#buttons_container button:nth-child(18) {
+  background-color: var(--tertiary-color);
+  box-shadow: 0px -6px 5px 0px rgb(100, 41, 35) inset;
+  color: var(--fontcolor1);
+}
+
+#challenge {
+  color: var(--fontcolor1);
+  text-align: center;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  section {
+    width: 100%;
+    height: auto;
+  }
+}
