@@ -9,51 +9,136 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/responsive.css">
     <title>KoquetasHn</title>
 </head>
 
 <body>
 
+
     <header id="header">
+
+        <a href="" id="logo">
+            <img src="/img/koquetas_logo-modified.png" alt="">
+            <span>Koquetas Hn</span>
+        </a>
+
         <nav id="menu">
-            <div id="logo">
-                <img src="/img/koquetas_logo-modified.png" alt="">
-                <span>Koquetas Hn</span>
+            <a class="nav_link active_link" href="#home_container">Inicio</a>
+            <a class="nav_link" href="#services_container">Servicios</a>
+            <a class="nav_link" href="">Ubicacion</a>
+            <a class="nav_link" href="#contact_container">Contactanos</a>
+            <a class="nav_link" href="">Reseñas</a>
 
-                <div>
-                    <i id="toggler" class="fa-solid fa-bars"></i>
-                </div>
-            </div>
-
-
-            <ul id="nav_links">
-                <li class="nav_link active_link"><a href="">Inicio</a></li>
-                <li class="nav_link"><a href="">Ubicacion</a></li>
-                <li class="nav_link"><a href="">Servicios</a></li>
-                <li class="nav_link"><a href="">Equipo</a></li>
-                <li class="nav_link"><a href="">Reseñas</a></li>
-            </ul>
         </nav>
+
+
+        <div id="toggler_container">
+            <i id="toggler" class="fa-solid fa-bars"></i>
+        </div>
     </header>
 
-    <section id="home">
-        <div id="home_card">
-            <h1>Koquetas Beauty Salon</h1>
-            <p>Somos uno de los mejores salones en San Pedro Sula, Honduras, con más de 15 años de experiencia en el
-                cuidado de la belleza. Ofrecemos una amplia gama de servicios de belleza, incluyendo cortes de
-                cabello, peinados, coloración, manicura, pedicura, tratamientos faciales y más. Nuestro equipo de
-                profesionales altamente capacitados se dedica a brindarte una experiencia excepcional y resultados
-                de calidad. ¡Visítanos y déjanos cuidar de ti!</p>
-            <a href="#services">Servicios</a>
-            <a href="#location">Ubicacion</a>
+    <section id="homecontainer">
 
+        <div id="home">
+            <div id="home_card">
+                <h1>Koquetas Beauty Salon</h1>
+                <p>Somos uno de los mejores salones en San Pedro Sula, Honduras, con más de 18 años de experiencia en el
+                    cuidado de la belleza. Ofrecemos una amplia gama de servicios de belleza, incluyendo cortes de
+                    cabello, peinados, coloración, manicura, pedicura, tratamientos faciales y más. Nuestro equipo de
+                    profesionales altamente capacitados se dedica a brindarte una experiencia excepcional y resultados
+                    de calidad. ¡Visítanos y déjanos cuidar de ti!</p>
+                <div class="buttons">
+                    <a href="#services_container">Servicios</a>
+                    <a href="#location_container">Ubicacion</a>
+                </div>
+
+            </div>
+
+            <div id="home_img">
+                <img id="img" src="/img/mujer.jpg" alt="">
+            </div>
         </div>
 
-        <div id="home_img">
-            <img src="" alt="">
+
+    </section>
+
+    <section id="services_container">
+        <div id="services">
+            <h2>Nuestros Servicios</h2>
+            <div class="service">
+                <img src="/img/services3.jpg" alt="">
+                <h3>PINTADO PERMANENTE</h3>
+                <h4>L.500</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dignissimos facere distinctio
+                    possimus vel in nemo quam quaerat ducimus saepe? Voluptate, nemo officiis dolorem harum tenetur non
+                    expedita ipsum molestias.</p>
+            </div>
+            <div class="service">
+                <img src="/img/services3.jpg" alt="">
+                <h3>PINTADO PERMANENTE</h3>
+                <h4>L.500</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dignissimos facere distinctio
+                    possimus vel in nemo quam quaerat ducimus saepe? Voluptate, nemo officiis dolorem harum tenetur non
+                    expedita ipsum molestias.</p>
+            </div>
+            <div class="service">
+                <img src="/img/services3.jpg" alt="">
+                <h3>PINTADO PERMANENTE</h3>
+                <h4>L.500</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dignissimos facere distinctio
+                    possimus vel in nemo quam quaerat ducimus saepe? Voluptate, nemo officiis dolorem harum tenetur non
+                    expedita ipsum molestias.</p>
+            </div>
+            <div class="service">
+                <img src="/img/services3.jpg" alt="">
+                <h3>PINTADO PERMANENTE</h3>
+                <h4>L.500</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dignissimos facere distinctio
+                    possimus vel in nemo quam quaerat ducimus saepe? Voluptate, nemo officiis dolorem harum tenetur non
+                    expedita ipsum molestias.</p>
+            </div>
         </div>
     </section>
+
+    <section id="location_container">
+        <div id="location">
+            <h2>Visitanos</h2>
+            <div id="map">
+                <iframe src="https://my.atlistmaps.com/map/a4995ce8-b05e-4ff4-bb13-b0aaa13a0424?share=true"
+                    allow="geolocation 'self' https://my.atlistmaps.com" width="100%" height="400px" frameborder="0"
+                    scrolling="no" allowfullscreen></iframe>
+            </div>
+            <div id="visit_us">
+                <h3>Direccion <i class="fa-sharp fa-solid fa-location-dot"></i> </h3>
+                <p>Plaza Falabella, Blvr. Unah- Vs, San Pedro Sula 21102</p>
+                <h3>Horario <i class="fa-sharp fa-solid fa-clock"></i></h3>
+                <p>Lunes - Viernes <br>7am - 7pm</p>
+                <p>Sabado <br>7:30am - 7pm</p>
+                <p>Domingo <br>Cerrado</p>
+                <h3>Telefono <a href=""><i class="fa-solid fa-phone"></i></a></h3>
+                <p><a href="tel:+50498233580">+504-9823-3580</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact_container">
+        <div id="contact">
+            <div id="contact_us">
+
+            </div>
+
+            <div id="contact_form">
+                <form action="">
+                    <input type="email" name="Correo" id="">
+                    <input type="text" name="Nombre" id="">
+                    <input type="number" name="Telefono" id="">
+                    <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
 
 
     <script src="/js/index.js"></script>
